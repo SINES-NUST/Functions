@@ -1,4 +1,4 @@
-# Learning Python Functions - Classroom Repository
+# Learning Python Functions
 
 ## Description
 This repository serves as a platform for learning and testing your understanding of Python functions. This is part of the Bioinformatics Masters Course led by Assistant Professor Mehak Rafiq. Regardless of your programming background, this repository aims to help you grasp the basics of Python functions effectively.
