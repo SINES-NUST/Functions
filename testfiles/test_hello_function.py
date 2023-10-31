@@ -1,10 +1,13 @@
 from sample_code.student_code import say_hello
 
-def test_hello_function():
+def test_say_hello():
     score = 0
-    if say_hello("Mehak") == "Hello, Mehak":
-        score += 1
-    print(f"Hello Function Score: {score}/1")
+    test_input = "test_string"
+
+    if isinstance(test_input, str) and say_hello(test_input) == f"Hello, {test_input}":
+        score = 1
+
+    print(f"Say Hello Score: {score}/1")
 
 if __name__ == "__main__":
-    test_hello_function()
+    test_say_hello()
