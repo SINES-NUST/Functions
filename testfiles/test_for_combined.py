@@ -2,9 +2,23 @@ from sample_code.student_code import combined_function
 
 def test_combined():
     score = 0
-    if combined_function([1, 2], 3) == [1, 2, 3]:
-        score += 5
-    print(f"Combined Topics Score: {score}/1")
+    
+    try:
+        output = combined_function(1, 2, 3, 4, 5)
+        
+        # Loop used: +1
+        score += 1 
+        
+        # List used: +1
+        score += 1
+        
+        # Function returning desired output: +1
+        if output == [4, 5]:
+            score += 1
+        
+        print(f"Advanced Function Score: {score}/3")
+    except ValueError:
+        print("Invalid input. All arguments must be integers or floats.")
 
 if __name__ == "__main__":
     test_combined()

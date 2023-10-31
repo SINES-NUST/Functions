@@ -1,10 +1,15 @@
-from sample_code.student_code import for_loop_function
+from sample_code.student_code import loop_function
 
-def test_for_loop():
+def test_for_loop_function():
     score = 0
-    if for_loop_function(5) == 15:  # Sum of numbers from 1 to 5
+    test_list = [3, 8, 2, 1, 5, 7, 4, 6]  # Unordered list for test
+    
+    max_value = loop_function(test_list)
+    
+    if max_value == max(test_list):
         score += 2
-    print(f"For Loop Score: {score}/1")
+
+    print(f"Max Value Function Score: {score}/2")
 
 if __name__ == "__main__":
-    test_for_loop()
+   test_for_loop_function()

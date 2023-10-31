@@ -1,13 +1,22 @@
 from sample_code.student_code import say_hello
+import io
+import sys
 
-def test_say_hello():
+def test_hello_function():
     score = 0
-    test_input = "test_string"
+    name = "Mehak"  # Variable for test
 
-    if isinstance(test_input, str) and say_hello(test_input) == f"Hello, {test_input}":
-        score = 1
+    captured_output = io.StringIO()
+    sys.stdout = captured_output
 
-    print(f"Say Hello Score: {score}/1")
+    say_hello(name)
+
+    sys.stdout = sys.__stdout__
+
+    if captured_output.getvalue().strip() == f"Hello, {name}":
+        score += 1
+
+    print(f"Hello Function Score: {score}/1")
 
 if __name__ == "__main__":
-    test_say_hello()
+    test_hello_function()

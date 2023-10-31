@@ -64,33 +64,54 @@ When you push your code to this repository, GitHub Classroom will automatically 
 
 ## Function Requirements
 
-### Hello Function (`say_hello`)
+### Say Hello Function (`say_hello`)
 
 1. The function should be named `say_hello`.
 2. It should take a single argument, which will be a string.
-3. The function should return a string in the format "Hello, [input_string]".
+3. The function should print "Hello, [name]" where [name] is the input argument.
 
 **Test Assessment:**
-- Your implementation will be checked to ensure that it only accepts strings as an argument.
-- It will also be tested to confirm that it correctly returns the expected greeting string.
+- Your implementation will be checked for printing the correct greeting. A correct answer will earn a score of `1`.
 
 ### Sum Function (`sum_function`)
 
 1. The function should be named `sum_function`.
-2. It should take two arguments, which can be either integers or floats.
-3. The function should return the sum of the two arguments.
+2. It should take two arguments, which could be integers or floats.
+3. The function should return the sum of these two arguments.
 
 **Test Assessment:**
-- Your implementation will be checked to make sure it only accepts integers and floats as arguments.
-- The function's output will be tested by summing up the numbers 8 and 18.9. The expected result is 26.9.
+- Your implementation will be checked to ensure that it sums the two arguments correctly. A correct answer will earn a score of `2`.
 
 ### List Function (`list_function`)
 
 1. The function should be named `list_function`.
 2. It should take a single argument, which will be a list of integers.
-3. The function should print all the integers in the list, separated by spaces.
-4. It should return the length of the list.
+3. The function should print all elements of the list and return the length of the list.
 
 **Test Assessment:**
-- Your implementation will be checked to ensure that it correctly prints all elements of the list.
-- It will also be tested to confirm that it returns the correct length of the list. For a list of 10 elements, the expected return value is `10`.
+- Your implementation will be checked to ensure that it prints the elements and returns the correct length of the list. A correct answer will earn a score of `2` (1 for print, 1 for length).
+
+### Max Value Function (`loop_function`)
+
+1. The function should be named `loop_function`.
+2. It should accept a list of integers or floats as its argument.
+3. Use a loop to find the maximum value in the given list.
+4. The function should return the maximum value.
+
+**Test Assessment:**
+- Correctly finds the max value: +2
+- Total marks: +2
+
+### Combined Function (`combined_function`)
+
+1. The function should be named `combined_function`.
+2. It should accept a variable number of arguments that can be either integers or floats.
+3. The function should raise a ValueError if any argument is a string.
+4. Use a loop to find the average of the list of numbers.
+5. The function should return a list of elements greater than the average.
+
+**Test Assessment:**
+- Loop used: +1
+- List used: +1
+- Function returning desired output: +1
+- Total marks: +3
