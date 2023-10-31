@@ -11,7 +11,12 @@ This repository serves as a platform for learning and testing your understanding
 
 
 ## Getting Started
-``````
+1. Fork this repository to your GitHub account.
+2. Clone the forked repository to your local machine.
+
+## Directory Structure
+
+```bash
 SINES-NUST/Functions/
 │
 ├── testfiles/                    # Folder containing test scripts
@@ -26,6 +31,7 @@ SINES-NUST/Functions/
 │
 └── README.md                     # This file
 ```
+
 ## Your Tasks
 
 You are required to write code for the following topics:
