@@ -11,13 +11,7 @@ This repository serves as a platform for learning and testing your understanding
 
 
 ## Getting Started
-
-1. Fork this repository to your GitHub account.
-2. Clone the forked repository to your local machine.
-
-## Directory Structure
-
-\\\
+``````
 SINES-NUST/Functions/
 │
 ├── testfiles/                    # Folder containing test scripts
@@ -31,8 +25,7 @@ SINES-NUST/Functions/
 │   └── student_code.py
 │
 └── README.md                     # This file
-\\\
-
+```
 ## Your Tasks
 
 You are required to write code for the following topics:
@@ -49,13 +42,13 @@ Each topic has its own test file in the `testfiles/` directory. Make sure to wri
 
 Navigate to the root directory of this repository and run the test scripts one by one like so:
 
-\\\bash
+```bash
 python testfiles/test_hello_function.py
 python testfiles/test_sum_function.py
 python testfiles/test_for_loop.py
 python testfiles/test_list_function.py
 python testfiles/test_combined.py
-\\\
+```
 
 Each test will output your score for that specific task. Aim for a perfect score!
 
