@@ -6,7 +6,6 @@ current_directory = os.path.dirname(os.path.abspath(__file__))
 parent_directory = os.path.dirname(current_directory)
 sys.path.append(parent_directory)
 
-from sample_code.student_code import combined_function
 
 from sample_code.student_code import sum_function
 
